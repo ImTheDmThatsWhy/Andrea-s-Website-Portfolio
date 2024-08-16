@@ -1,0 +1,9 @@
+# Website
+Andrea Sutton's Portfolio Website
+## Overview
+This website is about the web developer in progress Andrea Sutton. The website will feature a home page, about page, project page, and contact page.
+## Compenents 
+### Header
+At this stage the header consists of a profile photo which will later be stylised into an icon, and a heading. A nav bar, and additional css styling will be added later
+### Footer
+The footer contains a mobile contact number, an email address, and a business address, css styling will be added to the footer later. 
