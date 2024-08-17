@@ -1,0 +1,36 @@
+:root {
+--primary-color: skyblue;
+--secondary-color: rgba(249, 242, 242, 0.979); 
+--primary-background:lightblue;
+}
+Header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+}
+.logo-icon img {
+    height: 100px;
+    border-radius: 40px;
+    display: inline-block;
+}
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+body{
+margin: 0px;
+background-color: var(--secondary-color);
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+justify-content: space-between;
+}
+
+.home-photo img{
+    height: 250px;
+    border-radius: 40px; 
+}
+section{
+text-align: center;
+}
+
