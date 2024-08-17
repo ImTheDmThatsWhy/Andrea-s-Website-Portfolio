@@ -5,5 +5,9 @@ This website is about the web developer in progress Andrea Sutton. The website w
 ## Compenents 
 ### Header
 At this stage the header consists of a profile photo which will later be stylised into an icon, and a heading. A nav bar, and additional css styling will be added later
+Css styling has been added for header color and header image. Nav bar has also been added but needs additional Css styling
 ### Footer
-The footer contains a mobile contact number, an email address, and a business address, css styling will be added to the footer later. 
+The footer contains a mobile contact number, an email address, and a business address, css styling will be added to the footer later. Footer background color has been added and phone,email,and business address. Additional css styling will be added later.
+
+## Home Body
+Image has been added and styled using Css and introduction text and buttons have been added. Additional css styling will be performed though on the buttons and introduction text.

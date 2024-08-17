@@ -13,6 +13,10 @@ Header {
     border-radius: 40px;
     display: inline-block;
 }
+nav{
+ display: flex;
+ justify-content:space-around;
+}
 footer{
     background-color: var(--primary-color);
     text-align: center;
@@ -32,5 +36,18 @@ justify-content: space-between;
 }
 section{
 text-align: center;
+}
+.left-button{
+    margin: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--primary-background);
+}
+.right-button{
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--primary-background);
 }
 
