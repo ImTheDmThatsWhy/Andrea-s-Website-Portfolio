@@ -7,6 +7,7 @@ Header {
     background-color: var(--primary-color);
     text-align: center;
     padding: 16px;
+    font-size: 20px;
 }
 .logo-icon img {
     height: 100px;
@@ -17,10 +18,29 @@ nav{
  display: flex;
  justify-content:space-around;
 }
+
+nav a{
+    text-decoration: none;
+    color: blue
+}
+#Home:hover{
+    text-decoration: underline blue;
+}
+#About:hover{
+    text-decoration: underline blue;
+}
+#Projects:hover
+{
+    text-decoration:underline blue;
+}
+#Contact:hover{
+    text-decoration: underline blue;
+}
 footer{
     background-color: var(--primary-color);
     text-align: center;
 }
+
 body{
 margin: 0px;
 background-color: var(--secondary-color);
@@ -40,8 +60,8 @@ text-align: center;
 .left-button{
     margin: 20px;
     font-size: 20px;
-    border-radius: 20px;
     border: none;
+    border-radius: 20px;
     background-color: var(--primary-background);
 }
 .right-button{
@@ -51,3 +71,11 @@ text-align: center;
     background-color: var(--primary-background);
 }
 
+.left-button:hover{
+    cursor:grab;
+    background-color:burlywood;
+}
+.right-button:hover{
+    cursor: grab;
+    background-color:burlywood;
+}

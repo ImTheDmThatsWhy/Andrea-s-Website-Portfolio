@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--FontAwesome CD for Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="website.css">
 </head>
 <body>
@@ -15,10 +17,10 @@
         <p> <span class="Main-Title">Andrea Sutton's Portfolio Website</span></p>
     </div>
     <nav>
-        <a href="#">Home</a>
-        <a href="html files/About.html">About</a>
-        <a href="html files/Projects.html">Projects</a>
-        <a href="html files/Contacts.Html">Contact</a>
+        <a href="#" id="Home">Home</a>
+        <a href="html files/About.html" id="About">About</a>
+        <a href="html files/Projects.html" id="Projects">Projects</a>
+        <a href="html files/Contacts.Html" id="Contact">Contact</a>
     </nav>
   </header>
   <main>
@@ -27,15 +29,18 @@
             <img src="./Images/profile pic.jpg" alt="Profile Picture">
         </div>
         <p class="introduction">Hi my name is Andrea Sutton, welcome to my website. I am currently enrolled in the coder academy bootcamp as part of my dream to become a succesful web developer. </p>
-    <button class="left-button">Contact Me</button>
-    <button class="right-button">Download Resume</button>
+     <a href="html files/Contacts.Html"><button class="left-button">Contact Me</button></a>
+     
+    </button>
+    <button class="right-button">Download Resume
+    </button>
     </section>
   </main>  
   <footer>
     <div class="contact-info">
-        <p id="Phone">Phone Number:0434562750</p>
-        <p id="Business">Business Address: 123 Sunnysideup Donut Land 1111 BLT</p>
-        <p id="Email">Email:15792@coderacademy.edu.au</p>
+        <p id="Phone"><i class="fa-solid fa-phone"></i> Phone Number:0434562750</p>
+        <p id="Business"><i class="fa-regular fa-building"></i> Business Address: 123 Sunnysideup Donut Land 1111 BLT</p>
+        <p id="Email"><i class="fa-regular fa-envelope"></i> Email:15792@coderacademy.edu.au</p>
     </div>
   </footer>
 </body>

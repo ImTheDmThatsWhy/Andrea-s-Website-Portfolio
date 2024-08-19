@@ -1,0 +1,14 @@
+# Website
+Andrea Sutton's Portfolio Website
+## Overview
+This website is about the web developer in progress Andrea Sutton. The website will feature a home page, about page, project page, and contact page.
+## Compenents 
+### Header
+At this stage the header consists of a profile photo which will later be stylised into an icon, and a heading. A nav bar, and additional css styling will be added later
+Css styling has been added for header color and header image. Nav bar has also been added but needs additional Css styling. The Navbar has had additional styling done and now an underline will appear when a page link is hovered over.
+### Footer
+The footer contains a mobile contact number, an email address, and a business address, css styling will be added to the footer later. Footer background color has been added and phone,email,and business address. Additional css styling will be added later. Icons, have been added to the footer 
+
+## Home Body
+Image has been added and styled using Css and introduction text and buttons have been added. Additional css styling will be performed though on the buttons and introduction text.
+Additional styling has been formed to add links to the button, change the pointer to a hand symbol when the text is hovered over for the buttons, and change the color of the buttons when hovered over.
