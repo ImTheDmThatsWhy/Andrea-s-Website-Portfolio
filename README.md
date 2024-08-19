@@ -12,3 +12,4 @@ The footer contains a mobile contact number, an email address, and a business ad
 ## Home Body
 Image has been added and styled using Css and introduction text and buttons have been added. Additional css styling will be performed though on the buttons and introduction text.
 Additional styling has been formed to add links to the button, change the pointer to a hand symbol when the text is hovered over for the buttons, and change the color of the buttons when hovered over.
+New css styling has been added to make the page responsive to large screens.
