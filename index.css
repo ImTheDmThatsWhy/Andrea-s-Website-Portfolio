@@ -38,11 +38,11 @@ nav a{
 #Contact:hover{
     text-decoration: underline blue;
 }
+
 footer{
     background-color: var(--primary-color);
     text-align: center;
 }
-
 body{
 margin: 0px;
 background-color: var(--secondary-color);
@@ -81,6 +81,15 @@ text-align: center;
 .right-button:hover{
     cursor: grab;
     background-color:burlywood;
+}
+#Phone:hover{
+    transform: scale(1.2);
+}
+#Business:hover{
+    transform: scale(1.2);
+}
+#Email:hover{
+    transform: scale(1.2);
 }
 @media screen and (min-width:768px) {
 Header{

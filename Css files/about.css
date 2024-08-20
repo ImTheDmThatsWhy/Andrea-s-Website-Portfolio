@@ -1,0 +1,47 @@
+:root {
+    --primary-color: skyblue;
+    --secondary-color: #fff8ec; 
+    --primary-background:lightblue;
+}
+.heading-about{
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.heading-skills{
+    font-size: 20px;
+    font-weight: bold;
+}
+.job-heading{
+    font-size: 20px;
+    font-weight:bold;
+    margin: auto;
+}
+#info-about{
+   text-align: justify;
+   padding-left: 16px;
+   padding-right: 16px;
+   margin-top: 0;
+}
+#skills-list{
+    text-align: justify;
+   padding-right: 16px;
+}
+ul li{
+    margin-bottom: 8px;
+}
+#job-info{
+    text-align: justify;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.download-button{
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color:var(--primary-color)
+}
+.download-button:hover{
+    background-color: bisque;
+    cursor: grab;
+}
