@@ -14,5 +14,6 @@ The phone, email, and business information now becomes enlarged when a user hove
 Image has been added and styled using Css and introduction text and buttons have been added. Additional css styling will be performed though on the buttons and introduction text.
 Additional styling has been formed to add links to the button, change the pointer to a hand symbol when the text is hovered over for the buttons, and change the color of the buttons when hovered over.
 New css styling has been added to make the page responsive to large screens.
+An animation has been added so that a hand waves when a user enters the site and when a user hovers over the hand.
 ## About Page
 The about page has now been created and includes information about the page designer, programming skills, and job history, css will later be modified to make the information more user friendy on larger screen sizes.

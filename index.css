@@ -38,7 +38,38 @@ nav a{
 #Contact:hover{
     text-decoration: underline blue;
 }
-
+.wave{
+    animation-name: wave;
+    animation-duration: 2s;
+}
+@keyframes wave{
+0% {rotate: 0deg; }
+20% {rotate: 15deg;}
+30% { rotate: -5deg;}
+40% { rotate: 15deg;}
+50% {rotate: -5deg;}
+60% { rotate: 15deg;}
+70% {rotate: -5deg;}
+80% {rotate: 15deg;}
+90% {rotate: -5deg;}
+100% {rotate: 0deg;}
+}
+.wave:hover{
+    animation-name: wave-hover;
+    animation-duration: 2s;
+}
+@keyframes wave-hover{
+0% {rotate: 0deg; }
+20% {rotate: 15deg;}
+30% { rotate: -5deg;}
+40% { rotate: 15deg;}
+50% {rotate: -5deg;}
+60% { rotate: 15deg;}
+70% {rotate: -5deg;}
+80% {rotate: 15deg;}
+90% {rotate: -5deg;}
+100% {rotate: 0deg;}
+}
 footer{
     background-color: var(--primary-color);
     text-align: center;
