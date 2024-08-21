@@ -1,0 +1,60 @@
+:root {
+    --primary-color: skyblue;
+    --secondary-color: #fff8ec; 
+    --primary-background:lightblue;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+ .form-input{
+    width: 100%;
+    border: none;
+    background-color: lightgrey;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    resize: vertical;
+ }
+ .form-input:focus{
+    background-color: lightskyblue;
+    outline: none;
+ }
+ .contact-heading{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+ }
+ .contact-paragraph {
+    text-align: justify;
+    padding: 16px;
+    margin: 0;
+ }
+.social-media{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.social-media a i{
+    font-size: 30px;
+    color: blue;
+}
+.button{
+    text-align: center;
+}
+.Submit-button{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    margin-bottom: 10px;
+    min-width: 180px;
+}
+.Submit-button:hover{
+    background-color: bisque;
+}

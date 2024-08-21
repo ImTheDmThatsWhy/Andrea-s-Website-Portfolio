@@ -17,3 +17,5 @@ New css styling has been added to make the page responsive to large screens.
 An animation has been added so that a hand waves when a user enters the site and when a user hovers over the hand.
 ## About Page
 The about page has now been created and includes information about the page designer, programming skills, and job history, css will later be modified to make the information more user friendy on larger screen sizes.
+## Contact page
+A contact page has been added complete with a contact form, icons with working facebook and linkedin links, and a message. Css has also been added so that when a user clicks on a box the input background changes for better visibility and so that the user can see which box they are using. The submit button when hovered over will also change color. 
