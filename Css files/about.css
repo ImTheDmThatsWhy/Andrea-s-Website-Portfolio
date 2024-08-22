@@ -17,26 +17,29 @@
     font-weight:bold;
     margin: auto;
 }
-#info-about{
+.info-about{
    text-align: justify;
-   padding-left: 16px;
-   padding-right: 16px;
+   padding-left: 24px;
+   padding-right: 24px;
    margin-top: 0;
+   font-size: 18px;
 }
-#skills-list{
+.skills-list{
     text-align: justify;
-   padding-right: 16px;
+   padding-right: 24px;
 }
 ul li{
     margin-bottom: 8px;
+    font-size: 18px;
 }
-#job-info{
+.job-info{
     text-align: justify;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: 18px;
 }
 .download-button{
-    font-size: 15px;
+    font-size: 18px;
     margin-bottom: 20px;
     border-radius: 20px;
     background-color:var(--primary-color)
@@ -44,4 +47,48 @@ ul li{
 .download-button:hover{
     background-color: bisque;
     cursor: grab;
+}
+@media screen and (min-width:992px) {
+
+    .heading-about {
+        font-size: 25px;
+    }
+    .info-about{
+        font-size: 25px;
+    }
+    .heading-skills{
+        font-size: 25px;
+    }
+    i{
+       margin-right: 10px;
+    }
+    ul li{
+        font-size: 25px;
+        line-height: 40px;
+    } 
+    .job-heading{
+        font-size: 25px;
+        text-align: center;
+    }
+    .job-info{
+        font-size: 25px;
+        text-align: center;
+    }
+    .download-button{
+        font-size: 25px;
+    }
+}
+/* note this is to solve a problem on my home laptop screen where the skills list sits to far left */
+@media screen and (min-width:1600px){
+    div.container{ 
+        text-align:center;}
+        ul.skills-list{
+            display: inline-block;
+            text-align: left;
+        }
+        div.box{ text-align: center;}
+        .info-about{
+            display: inline-block;
+         
+        }
 }

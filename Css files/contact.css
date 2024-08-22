@@ -31,13 +31,14 @@ main {
  }
  .contact-paragraph {
     text-align: justify;
-    padding: 16px;
+    padding: 24px;
     margin: 0;
+    font-size: 18px;
  }
 .social-media{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly; 
     margin-bottom: 20px;
 }
 .social-media a i{
@@ -57,4 +58,27 @@ main {
 }
 .Submit-button:hover{
     background-color: bisque;
+}
+@media screen and (min-width:768px) {
+    .contact-heading {
+    font-size: 40px;}
+    .contact-paragraph{
+        font-size: 40px;
+        text-align: center;
+    }
+    label{
+        font-size: 35px;
+    }
+    .form-input{
+        padding: 28px;
+        border-radius: 20px;
+    }
+   .social-media a i{
+    font-size: 50px;
+    margin-top: 50px;
+   }
+   
+   .Submit-button{
+    font-size: 35px;
+   }
 }
