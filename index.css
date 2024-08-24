@@ -118,6 +118,7 @@ padding: 24px;
     border: none;
     border-radius: 20px;
     background-color: var(--primary-background);
+    color: black;
 
 }
 .right-button{
