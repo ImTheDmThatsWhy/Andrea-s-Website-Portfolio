@@ -1,19 +1,17 @@
-:root {
-    --primary-color: skyblue;
-    --secondary-color: #fff8ec; 
-    --primary-background:lightblue;
-}
+
 main {
     display: flex;
     flex-direction: column;
     align-items:center;
 }
-
+.form{
+    font-size: 1.2rem;
+    }
  .form-input{
     width: 100%;
     border: none;
     background-color: lightgrey;
-    padding: 8px;
+    padding: 0.6rem;
     border-radius: 8px;
     margin-top: 8px;
     margin-bottom: 20px;
@@ -24,7 +22,7 @@ main {
     outline: none;
  }
  .contact-heading{
-    font-size: 20px;
+    font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: 0;
     text-align: center;
@@ -33,7 +31,8 @@ main {
     text-align: justify;
     padding: 24px;
     margin: 0;
-    font-size: 18px;
+    font-size: 1.1rem;
+    line-height: 130%;
  }
 .social-media{
     width: 100%;
@@ -42,14 +41,17 @@ main {
     margin-bottom: 20px;
 }
 .social-media a i{
-    font-size: 30px;
+    font-size: 2rem;
     color: blue;
+}
+.social-media a i:hover{
+    color: red;
 }
 .button{
     text-align: center;
 }
 .Submit-button{
-    font-size: 20px;
+    font-size: 1.1rem;
     border-radius: 10px;
     border: none;
     background-color: var(--primary-color);
@@ -60,25 +62,47 @@ main {
     background-color: bisque;
 }
 @media screen and (min-width:768px) {
-    .contact-heading {
-    font-size: 40px;}
-    .contact-paragraph{
-        font-size: 40px;
-        text-align: center;
-    }
-    label{
-        font-size: 35px;
-    }
+ 
     .form-input{
-        padding: 28px;
+        padding: 1rem;
         border-radius: 20px;
+        font-size: 1.4rem;
+
     }
    .social-media a i{
-    font-size: 50px;
     margin-top: 50px;
    }
-   
    .Submit-button{
-    font-size: 35px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
    }
+   
+   .form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40vw;}
+   }
+@media screen and (min-width:1200px){
+    .form{
+        font-size: 1.5rem;
+    }
+    .Submit-button{
+        font-size: 1.5rem;
+    }
+    .social-media a i{
+        font-size: 2.5rem;
+    }
+    .contact-heading{
+        font-size: 2.5rem
+    }
+    .contact-paragraph{
+       font-size:1.8rem
+    }
+}
+/* to fix an alignment issue with the button on screens smaller then 768px */
+@media screen and (max-width:768px){
+    .button {padding-left:22px ;
+    
+}
 }

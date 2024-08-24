@@ -1,54 +1,54 @@
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .project-main-heading{
-    font-size: 24px;
+    font-size: 1.3rem;
     font-weight: bold;
     margin: 0;
 }
 .project-heading{
-    font-size: 18px;
+    font-size: 1.3em;
     font-weight: bold;
     margin-top: 0;
 }
 .project-heading1{
-    font-size: 18px;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 .project-paragraph{
     text-align: justify;
     padding-left: 24px;
     padding-right: 24px;
-    font-size: 13px;
     margin-bottom: 0;
     margin-top: 0;
-    font-size: 18px;
+    font-size: 1.3rem;
+    line-height: 130%;
 }
 .game-image{
-    width: 340px;
+    width: 80vw;
     height: auto;
     padding: 24px;
     margin-bottom: 0;
- 
 }
 .bank-pic{
-    width: 340px;
+    width: 80vw;
     height: auto;
     padding: 24px;
 }
 .code-pic{
-    width: 340px;
+    width: 80vw;
     height:auto;
     padding: 24px;
 }
-.bank-pic:hover{
-    transform: scale(1.5);
-}
-.code-pic:hover{
-    transform: scale(2)
-}
 
+.zoom{
+    font-size: 1.2rem;
+}
+.click-here{
+    text-align: center;
+}
 @media screen and (max-width:1200px) {
     iframe.container{display: none;}
     .click-here{ 
@@ -60,36 +60,31 @@ main{
     .click-here:hover{
         cursor: grab;}
     .zoom{display: none;}
-}
-
-@media screen and (min-width:768px){
     
     .project-main-heading{
-        font-size: 30px;
+        font-size: 2rem;
     }
     .project-heading1{
-        font-size: 25px;
+        font-size: 1.8rem;
     }
     .project-heading{
-        font-size: 25px;
+        font-size: 1.8rem;
     }
     .project-paragraph{
-        font-size: 20px;
-        
-    }
-    .game-image{
-        height: 450px;
-        width: auto;
+        font-size: 1.7rem
     }
     .bank-pic{
-        height:450px;
-        width: auto;
+        width: 50vw;
+        height: auto;
     }
     .code-pic{
-        width: 650px;
+        width: 50vw;
         height: auto;
-       
     }
 }
 
-    
+@media screen and (max-width:768px) {
+    .code-pic:hover{
+        transform: scale(1.3);
+    }
+}

@@ -1,19 +1,15 @@
-:root {
-    --primary-color: skyblue;
-    --secondary-color: #fff8ec; 
-    --primary-background:lightblue;
-}
+
 .heading-about{
-    font-size: 20px;
+    font-size: 1.45rem;
     font-weight: bold;
    
 }
 .heading-skills{
-    font-size: 20px;
+    font-size: 1.35rem;
     font-weight: bold;
 }
 .job-heading{
-    font-size: 20px;
+    font-size: 1.35rem;
     font-weight:bold;
     margin: auto;
 }
@@ -22,7 +18,8 @@
    padding-left: 24px;
    padding-right: 24px;
    margin-top: 0;
-   font-size: 18px;
+   font-size: 1.15rem;
+   line-height: 130%;
 }
 .skills-list{
     text-align: justify;
@@ -30,16 +27,18 @@
 }
 ul li{
     margin-bottom: 8px;
-    font-size: 18px;
+    line-height: 130%;
+    font-size: 1.2rem;
 }
 .job-info{
     text-align: justify;
     padding-right: 24px;
     padding-left: 24px;
-    font-size: 18px;
+    font-size: 1.2rem;
+    line-height: 130%;
 }
 .download-button{
-    font-size: 18px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
     border-radius: 20px;
     background-color:var(--primary-color)
@@ -48,38 +47,27 @@ ul li{
     background-color: bisque;
     cursor: grab;
 }
-@media screen and (min-width:992px) {
+@media screen and (min-width:1200px) {
 
-    .heading-about {
-        font-size: 25px;
-    }
-    .info-about{
-        font-size: 25px;
-    }
-    .heading-skills{
-        font-size: 25px;
-    }
+.info-about{
+    line-height: 150%;
+}
     i{
        margin-right: 10px;
     }
     ul li{
-        font-size: 25px;
         line-height: 40px;
     } 
     .job-heading{
-        font-size: 25px;
         text-align: center;
     }
     .job-info{
-        font-size: 25px;
-        text-align: center;
-    }
-    .download-button{
-        font-size: 25px;
+        text-align: justify;
     }
 }
 /* note this is to solve a problem on my home laptop screen where the skills list sits to far left */
 @media screen and (min-width:1600px){
+   
     div.container{ 
         text-align:center;}
         ul.skills-list{
@@ -88,7 +76,24 @@ ul li{
         }
         div.box{ text-align: center;}
         .info-about{
-            display: inline-block;
+       font-size: 1.4rem;
+       text-align: center
          
+        }
+        ul li{
+            font-size: 1.4rem;
+        }
+        .heading-skills{
+            font-size: 1.5rem
+        }
+        .job-heading{
+            font-size: 1.5rem;
+        }
+        .job-info{
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        .download-button{
+            font-size: 1.4rem;
         }
 }
