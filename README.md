@@ -124,5 +124,10 @@ project page complete with css responsive design added to allow for responsivene
 
  On the tablet and mobile versions a picture of the game appears and if the user clicks on the image they can go to the website (this is the case as the game is not playable on the mobile and tablet versions)
 
+## Placeholders
+Placeholders is made up information for the sake of examples
+the business address is a placeholder for a "real" address i could be contacted out
+
+All resume information except for the education and the normal sentences the rest is placeholder information
  ## Reference
  1: W3Schools (2024) _How TO - Typical Device Breakpoints_. Available at :https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp (Accessed: 24 August 2024)
