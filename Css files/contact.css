@@ -100,9 +100,3 @@ main {
        font-size:1.8rem
     }
 }
-/* to fix an alignment issue with the button on screens smaller then 768px */
-@media screen and (max-width:768px){
-    .button {padding-left:22px ;
-    
-}
-}

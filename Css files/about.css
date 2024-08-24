@@ -64,6 +64,9 @@ ul li{
     .job-info{
         text-align: justify;
     }
+    .download-button{
+        font-size: 1.3rem;
+    }
 }
 /* note this is to solve a problem on my home laptop screen where the skills list sits to far left */
 @media screen and (min-width:1600px){
@@ -93,7 +96,7 @@ ul li{
             font-size: 1.4rem;
             text-align: center;
         }
-        .download-button{
+        .download-button a{
             font-size: 1.4rem;
         }
 }

@@ -120,10 +120,15 @@ padding: 24px;
     background-color: var(--primary-background);
 }
 .right-button{
-    font-size: 1.3rem;
     border-radius: 20px;
     border: none;
     background-color: var(--primary-background);
+
+}
+.right-button a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
 }
 
 .left-button:hover{
@@ -179,7 +184,8 @@ nav{
     img.wave {
         height: 12vh;
         width: auto;}
-    .button{font-size: 1.7rem;}
+    .left-button{font-size: 1.7rem;}
+    .right-button a {font-size: 1.7rem;}
     .contact-info{font-size: 1.7rem}
 
 }
