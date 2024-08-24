@@ -52,11 +52,13 @@ ul li{
 
 .info-about{
     line-height: 150%;
+    font-size: 1.5rem;
 }
     i{
        margin-right: 10px;
     }
     ul li{
+        font-size: 1.5rem;
         line-height: 40px;
     } 
     .job-heading{
@@ -64,40 +66,9 @@ ul li{
     }
     .job-info{
         text-align: justify;
+        font-size: 1.5rem;
     }
     .download-button{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
-}
-/* note this is to solve a problem on my home laptop screen where the skills list sits to far left */
-@media screen and (min-width:1600px){
-   
-    div.container{ 
-        text-align:center;}
-        ul.skills-list{
-            display: inline-block;
-            text-align: left;
-        }
-        div.box{ text-align: center;}
-        .info-about{
-       font-size: 1.4rem;
-       text-align: center
-         
-        }
-        ul li{
-            font-size: 1.4rem;
-        }
-        .heading-skills{
-            font-size: 1.5rem
-        }
-        .job-heading{
-            font-size: 1.5rem;
-        }
-        .job-info{
-            font-size: 1.4rem;
-            text-align: center;
-        }
-        .download-button a{
-            font-size: 1.4rem;
-        }
 }

@@ -1,6 +1,10 @@
 # Website
 Andrea Sutton's Portfolio Website
-
+## Key notes
+For the purpose of this website the breakpoints have been designated as the following 
+- extra small devices 600px and down
+-medium devices tablets 768px and up
+-extra large devices 1200px and up
 ## Overview
 This website is about the web developer in progress Andrea Sutton. The website will feature a home page, about page, project page, and contact page.
 ## Compenents 
