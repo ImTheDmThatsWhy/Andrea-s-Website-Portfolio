@@ -118,8 +118,11 @@ padding: 24px;
     border: none;
     border-radius: 20px;
     background-color: var(--primary-background);
+  
+}
+.left-button a {
+    text-decoration: none;
     color: black;
-
 }
 .right-button{
     border-radius: 20px;
@@ -128,7 +131,7 @@ padding: 24px;
     color: black;
 
 }
-.right-button a {
+.right-button a{
     font-size: 1.3rem;
     text-decoration: none;
     color: black;
@@ -188,7 +191,7 @@ nav{
         height: 12vh;
         width: auto;}
     .left-button{font-size: 1.7rem;}
-    .right-button a {font-size: 1.7rem;}
+    .right-button a{font-size: 1.7rem;}
     .contact-info{font-size: 1.7rem}
 
 }

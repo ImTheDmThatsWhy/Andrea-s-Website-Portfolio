@@ -30,6 +30,10 @@ ul li{
     line-height: 130%;
     font-size: 1.2rem;
 }
+img.icon-pic{
+    height: 20px;
+    width: auto
+}
 .job-info{
     text-align: justify;
     padding-right: 24px;
@@ -42,7 +46,11 @@ ul li{
     margin-bottom: 20px;
     border-radius: 20px;
     background-color:var(--primary-color);
-    color: black
+    border: none;
+}
+.download-button a {
+    text-decoration: none;
+    color: black;
 }
 .download-button:hover{
     background-color: bisque;
