@@ -1,5 +1,6 @@
 # Website
 Andrea Sutton's Portfolio Website
+<!-- note by preference of the designer css has been used instead of scss -->
 ## Key notes
 For the purpose of this website the breakpoints have been designated as the following 
 - extra small devices 600px and down
