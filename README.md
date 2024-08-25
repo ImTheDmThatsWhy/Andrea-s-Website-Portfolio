@@ -8,6 +8,13 @@ For the purpose of this website the breakpoints have been designated as the foll
 -extra large devices 1200px and up
 As suggested on (W3 schools, 2024)
 link= https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp
+
+## Wireframes 
+Home page: The desktop version of the home page design has been changed from the original wire frame design as I believe the page looks good as it is and translates better across the different mobile devices by keeping consistency. The home page main image has also been changed from a circle to a shape that helps the picture appear clearer.
+
+About page: Like the home page the dekstop design has been changed to match the design style of the mobile and tablet style as it still looks good and keeps design consistency across the different screen resolutions.
+
+Project page: The desktop design has been changed as I believe it was neater to keep a column scroll design where a user could look at a project explanation then view the project below. Rather then having all the projects compressed into one view on a desktop screen.
 ## Overview
 This website is about the web developer in progress Andrea Sutton. The website will feature a home page, about page, project page, and contact page.
 ## Compenents 
